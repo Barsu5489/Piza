@@ -3,12 +3,12 @@ class RestaurantsController < ApplicationController
 
     def index 
         restaurant = Restaurant.all
-        render json: restaurant
+        render json: restaurant, each_serializer: RestaurantIndexSerializer
     end
 
     def show 
         restaurant_pizza = Restaurant.find(params[:id])
-        render json: restaurant_pizza, include: ['pizzas'] 
+        render json: restaurant_pizza, serializer: RestaurantSerializer
     end
     private
 
