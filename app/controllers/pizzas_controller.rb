@@ -8,6 +8,6 @@ class PizzasController < ApplicationController
     private
 
     def render_not_found_respons
-        render json: { error: "Author not found" }, status: :not_found
+        render json: { error: "Pizza not found" }, status: :not_found
     end
 end
