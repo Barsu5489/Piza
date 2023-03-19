@@ -1,6 +1,5 @@
 # RESTAURANT API
-This is a RESTful API for managing restaurants and their associated pizzas.
-
+This is a RESTful API for Pizza Restaurants
 ## Requirements
 - Ruby 2.7.4 or later
 - Rails 6.1.4 or later
