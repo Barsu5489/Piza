@@ -1,6 +1,6 @@
 # RESTAURANT API
 This is a RESTful API for Pizza Restaurants
-The API has been deployed at `https://restaurant-api-9th4.onrender.com/pizza`
+The API has been deployed at [https://res-api-a1c5.onrender.com/restaurants]
 ## Requirements
 - Ruby 2.7.4 or later
 - Rails 6.1.4 or later
